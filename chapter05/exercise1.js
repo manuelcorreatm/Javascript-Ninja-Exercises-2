@@ -7,6 +7,7 @@ function Client(startMoney) {
     var account = 0;
     var money = startMoney;
 
+/*
     this.getAccount = function () {
         return account;
     }
@@ -14,6 +15,7 @@ function Client(startMoney) {
     this.getMoney = function () {
         return money;
     }
+*/
 
     this.deposit = function (target, quantity) {
         if (quantity > money) {
@@ -66,8 +68,8 @@ client3.deposit(1, 300);
 client1.viewBalance();
 client2.viewBalance();
 client3.viewBalance();
-
+/*
 console.log(client1.getMoney());
 console.log(client2.getMoney());
 console.log(client3.getMoney());
-
+*/
