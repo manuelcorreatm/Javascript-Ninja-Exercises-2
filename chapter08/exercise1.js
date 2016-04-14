@@ -11,8 +11,8 @@
     result.push(nouns2[parseInt(Math.random() * nouns2.length)]);
     
 
-    return result.join(" ");
+    console.log(result.join(" "));
 
 }
 
-console.log(displayRandomSentence());
+setInterval(displayRandomSentence, 60000);
