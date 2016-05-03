@@ -6,6 +6,25 @@
     <link rel="stylesheet" href="exercise3.css" />
 </head>
 <body>
+    <div id="container">
+    </div>
+
+    <script type="text/template" id="template1">
+        <ul>
+            <% for ( var i = 0; i < members.length; i++ ) { %>
+            <li id="<%=members[i].id%>" class="list"> 
+                <img src="<%=members[i].img%>" />
+                <p><%=members[i].title%> <%=members[i].text%></p>
+            </li>
+            <% } %>
+        </ul>
+    </script>
+    <script type="text/template" id="template2">
+        <div class="full">
+            <img src="<%=img%>" />
+            <p><%=title%> <%=text%></p>
+        </div>      
+    </script>
 
     <script src="exercise3.js"></script>
 </body>

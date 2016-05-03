@@ -1,2 +1,15 @@
-﻿body {
+﻿ul {
+    list-style-type:none;
+}
+.list img {
+    float: left; 
+}
+
+.list p {
+    height: 200px;
+    overflow: hidden;
+}
+
+.full img {
+    float: left;
 }
